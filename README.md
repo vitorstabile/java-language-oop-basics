@@ -19,8 +19,7 @@
     - [Chapter 2 - Part 2: Understanding Java Versions (LTS)](#chapter2part2)
     - [Chapter 2 - Part 3: JVM](#chapter2part3)
     - [Chapter 2 - Part 4: Compile-time Errors and Runtime Errors](#chapter2part4)
-    - [Chapter 2 - Part 5: JDK](#chapter2part5)
-    - [Chapter 2 - Part 6: Structure of a Java Application](#chapter2part6)
+    - [Chapter 2 - Part 5: Structure of a Java Application](#chapter2part5)
 7. [Usage](#usage)
 8. [Contributors](#contributors)
 9. [Contributing](#contributing)
@@ -328,11 +327,19 @@ The process to execute the bytecode is called JIT (Just in Time) Compilation. Is
 | In this case, the compiler prevents the code from execution if it detects an error in the program.]                       | In this case, the compiler does not detect the error, so it cannot prevent the code from the execution.                              |
 | It contains the syntax and semantic errors such as missing semicolon at the end of the statement.                         | It contains the errors such as division by zero, determining the square root of a negative number.                                   |
 
-#### <a name="chapter2part5"></a>Chapter 2 - Part 5: JDK
+#### <a name="chapter2part5"></a>Chapter 2 - Part 5: Structure of a Java Application
 
-#### <a name="chapter2part6"></a>Chapter 2 - Part 6: Structure of a Java Application
+Java is an object-oriented language and your base unit is the class.  Every Code in Java have to be in a class.
 
+The classes is organize in packages and the packages is organize in modules. A Java application is a set of modules with packages.
 
+Bellow, there is a example of a Java application:
+
+<br>
+
+<div align="center"><img src="img/chapter2/application-structure-in-java-w1449-h810.png" width=1000 height=500><br><sub>Fig 7 - Application Structure in Java Application </sub></div>
+
+<br>
 
 # Usage <a name="usage"></a>
 
