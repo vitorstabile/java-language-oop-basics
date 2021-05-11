@@ -11,9 +11,9 @@
     - [Chapter 1 - Part 3: Automation](#chapter1part3)
     - [Chapter 1 - Part 4: Computer Program](#chapter1part4)
     - [Chapter 1 - Part 5: What Does it Take to Make a Computer Program?](#chapter1part5)
-    - [Chapter 1 - Part 6: Programming language](#chapter1part6)
-    - [Chapter 1 - Part 7: Programming language](#chapter1part7)
-    - [Chapter 1 - Part 8: Programming language](#chapter1part8)
+    - [Chapter 1 - Part 6: Programming Language](#chapter1part6)
+    - [Chapter 1 - Part 7: IDE](#chapter1part7)
+    - [Chapter 1 - Part 8: Compilation and Interpretation, Source Code and Object Code, Virtual machine](#chapter1part8)
 5. [Chapter 2: BBBB](#chapter2)
     - [Chapter 2 - Part 1: aaaa](#chapter2part1)
     - [Chapter 2 - Part 2: bbbb](#chapter2part2)
@@ -168,6 +168,61 @@ public class Program {
 }
 
 ```
+
+#### <a name="chapter1part7"></a>Chapter 1 - Part 7: IDE
+
+It is a set of software used to build programs.
+
+Ex:
+
+- C / C ++: Code Blocks
+- Java: Eclipse, NetBeans
+- C#: Microsoft Visual Studio
+
+Functions of an IDE
+
+- Editing of source code (indentation, autocompletion, highlighting of words, etc.)
+- Debugging and testing
+- Construction of the final product (build)
+- Suggestion of templates
+- Assist in various tasks of your project
+
+#### <a name="chapter1part8"></a>Chapter 1 - Part 8: Compilation and Interpretation, Source Code and Object Code, Virtual Machine
+
+**Source Code**: is the code written by the programmer in a programming language
+
+Ex:
+
+```java
+
+package application;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+        double x, y, media;
+        
+		System.out.print("Enter the First Number: ");
+        x = sc.nextDouble();
+        System.out.print("Enter the Second Number: ");
+        y = sc.nextDouble();
+        
+        media = (x + y)/2.0;
+        
+        System.out.println("Media = " + media);
+        sc.close();
+	}
+
+}
+
+```
+
+
 
 ## <a name="chapter2"></a>Chapter 2: BBBB
 
