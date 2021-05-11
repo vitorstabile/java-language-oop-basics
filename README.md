@@ -20,6 +20,7 @@
     - [Chapter 2 - Part 3: JVM](#chapter2part3)
     - [Chapter 2 - Part 4: Compile-time Errors and Runtime Errors](#chapter2part4)
     - [Chapter 2 - Part 5: Structure of a Java Application](#chapter2part5)
+    - [Chapter 2 - Part 6: Components of Oracle's Java Platform Products](#chapter2part6)
 7. [Usage](#usage)
 8. [Contributors](#contributors)
 9. [Contributing](#contributing)
@@ -340,6 +341,29 @@ Bellow, there is a example of a Java application:
 <div align="center"><img src="img/chapter2/application-structure-in-java-w1449-h810.png" width=1000 height=500><br><sub>Fig 7 - Application Structure in Java Application </sub></div>
 
 <br>
+
+#### <a name="chapter2part6"></a>Chapter 2 - Part 6: Components of Oracle's Java Platform Products
+
+The Java JDK come with some of most used packages to help the developer like awt, beans, io, lang, math, net, nio, sql, util and each package have a class or a interface.
+
+<br>
+
+<div align="center"><img src="img/chapter2/packages-jdk-w646-h292.png" width=646 height=292><br><sub>Fig 8 -Java Packages - (<a href='http://www.wellnwill.com/tutorial/core-java/package/package'>Work by Well N Will</a>) </sub></div>
+
+<br>
+
+Oracle have a documentation about all his packages: https://docs.oracle.com/javase/8/docs/technotes/guides/desc_jdk_structure.html
+
+<br>
+
+<div align="center"><img src="img/chapter2/packages-jdk2-w788-h483" width=788 height=483><br><sub>Fig 9 -Java Packages - (<a href='https://docs.oracle.com/javase/8/docs/technotes/guides/desc_jdk_structure.html'>Work by Oracle</a>) </sub></div>
+
+<br>
+
+One of the most famous used packages is java.util.collections and java.util.map
+
+<div align="center"><img src="img/chapter2/packages-jdk4-w1512-h1252" width=500 height=400><br><sub>Fig 10 -Java Packages - (<a href='https://docs.oracle.com/javase/8/docs/technotes/guides/desc_jdk_structure.html'>Work by Oracle</a>) </sub></div>
+
 
 # Usage <a name="usage"></a>
 
