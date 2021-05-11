@@ -299,7 +299,7 @@ Below, there some of compilation process examples in Java:
 
 <div align="center"><img src="img/chapter2/java-compiler-process3-w612-h242.png" width=612 height=242><br><sub>Fig 5 - Compilation Process in Java - (<a href='https://www.w3schools.in/java-tutorial/compile-java-file-using-javac/'>Work by  w3schools</a>) </sub></div>
 
-The process to execute the bytecode is called JIT (Just in Time Compilation), executed by JVM.
+The process to execute the bytecode is called JIT (Just in Time) Compilation. Is more faster than interpretation because the compiler revise before the run time, if the bytecode is lexical and syntactical correct.
 
 <div align="center"><img src="img/chapter2/java-compiler-process4-w557-h617.png" width=557 height=617><br><sub>Fig 6 - Compilation Process in Java - (<a href='http://javaeesupportpatterns.blogspot.com/2013/07/java-just-in-time-compilation-more-than.html'>Work by javaeesupportpatterns</a>) </sub></div>
 
