@@ -368,7 +368,7 @@ One of the most famous used packages is java.util.collections and java.util.map
 
 <br>
 
-<div align="center"><img src="img/chapter2/packages-jdk5-w854-h715.png" width=854 height=715><br><sub>Fig 11 -Java Packages - (<a href='https://docs.oracle.com/javase/8/docs/technotes/guides/desc_jdk_structure.html'>Work by Oracle</a>) </sub></div>
+<div align="center"><img src="img/chapter2/packages-jdk5-w854-h715.png" width=854 height=715><br><sub>Fig 11 -Java Packages - (<a href='https://www.javatpoint.com/collections-in-java'>Work by JavaPoint</a>) </sub></div>
 
 <br>
 
