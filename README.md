@@ -5,10 +5,11 @@
 1. [Project Status](#projectstatus)
 2. [About the Project](#abouttheproject)
 3. [Project Description](#projectdescription)
-4. [Chapter 1: AAAA](#chapter1)
-    - [Chapter 1 - Part 1: aaaa](#chapter1part1)
-    - [Chapter 1 - Part 2: bbbb](#chapter1part2)
-    - [Chapter 1 - Part 3: cccc](#chapter1part3)
+4. [Chapter 1: Programming Concepts](#chapter1)
+    - [Chapter 1 - Part 1: Programmer's Career Starts](#chapter1part1)
+    - [Chapter 1 - Part 2: Algorithm](#chapter1part2)
+    - [Chapter 1 - Part 3: Automation](#chapter1part3)
+    - [Chapter 1 - Part 4: Computer Program](#chapter1part4)
 5. [Chapter 2: BBBB](#chapter2)
     - [Chapter 2 - Part 1: aaaa](#chapter2part1)
     - [Chapter 2 - Part 2: bbbb](#chapter2part2)
@@ -47,7 +48,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan id neq
 lacinia blandit turpis rhoncus varius. Proin vulputate orci nulla, nec porttitor nibh consequat in. Suspendisse ac neque ut massa commodo auctor in sed libero. Sed tincidunt
 mauris eu tempor malesuada. Mauris feugiat vitae risus quis iaculis
   
-## <a name="chapter1"></a>Chapter 1: Fundamentals
+## <a name="chapter1"></a>Chapter 1: Programming Concepts
 
 #### <a name="chapter1part1"></a>Chapter 1 - Part 1: Programmer's Career Starts
 
@@ -60,11 +61,46 @@ The beginning of any programmer's career starts with solid fundamentals, such as
 5. Relational Data Base
 6. Systems Analysis and Design
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan id neque ut tempor. Nulla facilisi. Aliquam eu eros fermentum, commodo est sed, pharetra est. 
-Curabitur lacinia blandit turpis rhoncus varius. Proin vulputate orci nulla, nec porttitor nibh consequat in. Suspendisse ac neque ut massa commodo auctor in sed libero. 
-Sed tincidunt mauris eu tempor malesuada. Mauris feugiat vitae risus quis iaculis.
+#### <a name="chapter1part2"></a>Chapter 1 - Part 2: Algorithm
 
-<div align="center"><img src="img/img-example-w5688-h3713.jpg" width=300 height=300><br><sub>Fig 1 - Aplication Deploy</sub></div>
+Algorithm is a process or set of rules to be followed as problem-solving operations.
+
+Make a cake problem:
+
+A Cake Recipe Algorithm
+
+1. Preheat the oven.
+2. Gather the ingredients.
+3. Measure out the ingredients.
+4. Mix the ingredients to make the batter.
+5. Grease a pan.
+6. Pour the batter into the pan.
+7. Put the pan in the oven.
+8. Set a timer.
+9. When the timer goes off, take the pan out of the oven.
+10. Enjoy!
+
+#### <a name="chapter1part3"></a>Chapter 1 - Part 3: Automation
+
+Consists of using machine (s) to perform the procedure automatically or semi-automatically.
+
+In the cake recipe example, a food mixer can in the step four can be a example of automation.
+
+#### <a name="chapter1part4"></a>Chapter 1 - Part 4: Computer Program
+
+Computer have:
+
+Hardware: Physical Parts (CPU, RAM, GPU, keyboard...)
+
+Software: Logical Part (Program)
+    - Operation System
+    - Aplications (Spotify, Word, Web Browser)
+    - Games
+    - Utilities
+
+Conclusion: Computer programs are algorithms executed by the computer. The computer is a machine that automates the execution of
+algorithms.
+Any algorithm? No. Only computational algorithms: Data processing and Calculation
 
 ## <a name="chapter2"></a>Chapter 2: BBBB
 
