@@ -267,7 +267,7 @@ When you need to run a Java Program in a computer, you have to install the execu
 	- Runs on various types of devices
 	- Dominates the corporate market since the end of the 20th century
 
-**Java Editions*
+**Java Editions**
 
  - Java ME - Java Micro Edition - embedded and mobile devices - IoT - http://www.oracle.com/technetwork/java/javame
  - Java SE - Java Standard Edition - core - desktop e servers - http://www.oracle.com/technetwork/java/javase
