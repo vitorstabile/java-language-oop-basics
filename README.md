@@ -17,8 +17,8 @@
 5. [Chapter 2: Introduction to Java](#chapter2)
     - [Chapter 2 - Part 1: What is Java?](#chapter2part1)
     - [Chapter 2 - Part 2: Understanding Java Versions (LTS)](#chapter2part2)
-    - [Chapter 2 - Part 3: JDK](#chapter2part3)
-    - [Chapter 2 - Part 4: JVM](#chapter2part4)
+    - [Chapter 2 - Part 3: JVM](#chapter2part3)
+    - [Chapter 2 - Part 4: JDK](#chapter2part4)
     - [Chapter 2 - Part 5: Structure of a Java Application](#chapter2part5)
 7. [Usage](#usage)
 8. [Contributors](#contributors)
@@ -284,9 +284,15 @@ The Standard Edition (SE) of Java, you can see in this link: https://www.oracle.
 
 It is absolutely crazy to think about keeping several applications or several hundred (thousand?) servers up to date with the newest Java release, especially when 5 have come out in as many years by the end of 2019. That is why the concept of an LTS was established. A Java LTS (long-term support) release is a version of Java that will remain the industry standard for several years. To give you an example of this, Java 8 was released in 2014, it will continue to receive updates until 2020, and extended support will end by 2025. This is a span of almost 10 years for a stable Java release to be considered an industry standard. This gives plenty of OS vendors like Microsoft and Red Hat the time to repackage their releases with Java 8, time for application developers to update their applications to take full advantage of Java 8 features, and time for system administrators to update their data centers with Java 8 before a new version is released. At this time, the only other Java version that is also an LTS version is Java 11, which was released in 2018.
 
-#### <a name="chapter2part3"></a>Chapter 2 - Part 3: JDK
+#### <a name="chapter2part3"></a>Chapter 2 - Part 3: JVM
 
-#### <a name="chapter2part4"></a>Chapter 2 - Part 4: JVM
+JVM is the Java Virtual Machine to execute Java Programs in your system.
+
+Below, there is a compiler process examples:
+
+<div align="center"><img src="img/chapter2/what-is-computer-w688-h336.jpg" width=600 height=300><br><sub>Fig 4 - What is a Computer - (<a href='https://slideplayer.com/user/5454922/'>Work by Clementine Patrick</a>) </sub></div>
+
+#### <a name="chapter2part4"></a>Chapter 2 - Part 4: JDK
 
 #### <a name="chapter2part5"></a>Chapter 2 - Part 5: Structure of a Java Application
 
