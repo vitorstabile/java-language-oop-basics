@@ -10,6 +10,10 @@
     - [Chapter 1 - Part 2: Algorithm](#chapter1part2)
     - [Chapter 1 - Part 3: Automation](#chapter1part3)
     - [Chapter 1 - Part 4: Computer Program](#chapter1part4)
+    - [Chapter 1 - Part 5: What Does it Take to Make a Computer Program?](#chapter1part5)
+    - [Chapter 1 - Part 6: Programming language](#chapter1part6)
+    - [Chapter 1 - Part 7: Programming language](#chapter1part7)
+    - [Chapter 1 - Part 8: Programming language](#chapter1part8)
 5. [Chapter 2: BBBB](#chapter2)
     - [Chapter 2 - Part 1: aaaa](#chapter2part1)
     - [Chapter 2 - Part 2: bbbb](#chapter2part2)
@@ -101,6 +105,15 @@ Software: Logical Part (Program)
 Conclusion: Computer programs are algorithms executed by the computer. The computer is a machine that automates the execution of
 algorithms.
 Any algorithm? No. Only computational algorithms: Data processing and Calculation
+
+#### <a name="chapter1part5"></a>Chapter 1 - Part 5: What Does it Take to Make a Computer Program?
+
+To make a computer program, we need:
+
+- A programming language: lexical and syntactic rules for write the program
+- An IDE: software to edit and test the program
+- A compiler: software for turning source code into code object
+- A code generator or virtual machine: software that allows the program to run
 
 ## <a name="chapter2"></a>Chapter 2: BBBB
 
