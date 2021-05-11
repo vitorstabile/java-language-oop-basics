@@ -15,8 +15,8 @@
     - [Chapter 1 - Part 7: IDE](#chapter1part7)
     - [Chapter 1 - Part 8: Compilation and Interpretation, Source Code and Object Code, Virtual machine](#chapter1part8)
 5. [Chapter 2: Introduction to Java](#chapter2)
-    - [Chapter 2 - Part 1: Understanding Java Versions](#chapter2part1)
-    - [Chapter 2 - Part 2: Java Editions](#chapter2part2)
+    - [Chapter 2 - Part 1: What is Java?](#chapter2part1)
+    - [Chapter 2 - Part 2: Understanding Java Versions (LTS)](#chapter2part2)
     - [Chapter 2 - Part 3: JDK](#chapter2part3)
     - [Chapter 2 - Part 4: JVM](#chapter2part4)
     - [Chapter 2 - Part 5: Structure of a Java Application](#chapter2part5)
@@ -241,13 +241,48 @@ public class Program {
 
 ## <a name="chapter2"></a>Chapter 2: Introduction to Java
 
-#### <a name="chapter2part1"></a>Chapter 2 - Part 1: Understanding Java Versions
+#### <a name="chapter2part1"></a>Chapter 2 - Part 1: What is Java?
+
+**Whats is Java?** 
+
+Java is a program language and a developing platform, with libraries (API) and execution environment.
+
+When you need to run a Java Program in a computer, you have to install the execution environment to run the program and the JDK (Java Development Kit) with the libraries and API.
+
+**History of Java**
+
+- Problems solved and reason for its success:
+	- Pointers (C and C++) / memory management (garbage collector)
+	- Failed portability: writing part of the code when changing of SO
+	- Use on miscellaneous devices
+	- Costs
+
+- Created by Sun Microsystems in the mid-1990s
+
+- Acquired by Oracle Corporation in 2010
+
+- Java Advantages:
+	- Compiled code for bytecode and run on virtual machine (JVM)
+	- Portable, safe, robust
+	- Runs on various types of devices
+	- Dominates the corporate market since the end of the 20th century
+
+**Java Editions*
+
+ - Java ME - Java Micro Edition - embedded and mobile devices - IoT - http://www.oracle.com/technetwork/java/javame
+ - Java SE - Java Standard Edition - core - desktop e servers - http://www.oracle.com/technetwork/java/javase
+ - Java EE - Java Enterprise Edition - corporate applications - http://www.oracle.com/technetwork/java/javaee
+
+**Java SE Documentation**
+
+https://docs.oracle.com/en/java/javase/11/
+
+
+#### <a name="chapter2part2"></a>Chapter 2 - Part 2: Understanding Java Versions (LTS)
 
 The Standard Edition (SE) of Java, you can see in this link: https://www.oracle.com/java/technologies/javase-downloads.html
 
 It is absolutely crazy to think about keeping several applications or several hundred (thousand?) servers up to date with the newest Java release, especially when 5 have come out in as many years by the end of 2019. That is why the concept of an LTS was established. A Java LTS (long-term support) release is a version of Java that will remain the industry standard for several years. To give you an example of this, Java 8 was released in 2014, it will continue to receive updates until 2020, and extended support will end by 2025. This is a span of almost 10 years for a stable Java release to be considered an industry standard. This gives plenty of OS vendors like Microsoft and Red Hat the time to repackage their releases with Java 8, time for application developers to update their applications to take full advantage of Java 8 features, and time for system administrators to update their data centers with Java 8 before a new version is released. At this time, the only other Java version that is also an LTS version is Java 11, which was released in 2018.
-
-#### <a name="chapter2part2"></a>Chapter 2 - Part 2: Java Editions
 
 #### <a name="chapter2part3"></a>Chapter 2 - Part 3: JDK
 
