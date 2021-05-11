@@ -289,6 +289,8 @@ It is absolutely crazy to think about keeping several applications or several hu
 
 JVM is the Java Virtual Machine to execute Java Programs in your system.
 
+Java take the advantages of compilation and interpretation and create the hybrid interpretation with JVM.
+
 Below, there some of compilation process examples in Java:
 
 <div align="center"><img src="img/chapter2/java-compiler-process-w700-h676.png" width=700 height=676><br><sub>Fig 3 - Compilation Process in Java - (<a href='https://medium.com/@PrayagBhakar/lesson-2-behind-the-scenes-4df6a461f31f'>Work by Prayag Bhakar</a>) </sub></div>
@@ -296,6 +298,8 @@ Below, there some of compilation process examples in Java:
 <div align="center"><img src="img/chapter2/java-compiler-process2-w487-h317.png" width=487 height=317><br><sub>Fig 4 - Compilation Process in Java - (<a href='https://www3.ntu.edu.sg/home/ehchua/programming/java/J1a_Introduction.html'>Work by Chua Hock-Chuan</a>) </sub></div>
 
 <div align="center"><img src="img/chapter2/java-compiler-process3-w612-h242.png" width=612 height=242><br><sub>Fig 5 - Compilation Process in Java - (<a href='https://www.w3schools.in/java-tutorial/compile-java-file-using-javac/'>Work by  w3schools</a>) </sub></div>
+
+The process to execute the bytecode is called JIT (Just in Time Compilation), executed by JVM.
 
 <div align="center"><img src="img/chapter2/java-compiler-process4-w557-h617.png" width=557 height=617><br><sub>Fig 6 - Compilation Process in Java - (<a href='http://javaeesupportpatterns.blogspot.com/2013/07/java-just-in-time-compilation-more-than.html'>Work by javaeesupportpatterns</a>) </sub></div>
 
