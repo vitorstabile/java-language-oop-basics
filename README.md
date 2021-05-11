@@ -222,6 +222,8 @@ public class Program {
 
 ```
 
+<div align="center"><img src="img/compilation-interpretation-w1353-h638.png" width=1000 height=500><br><sub>Fig 1 - Compilation and Interpretation Process</sub></div>
+
 
 
 ## <a name="chapter2"></a>Chapter 2: BBBB
