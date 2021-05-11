@@ -18,8 +18,9 @@
     - [Chapter 2 - Part 1: What is Java?](#chapter2part1)
     - [Chapter 2 - Part 2: Understanding Java Versions (LTS)](#chapter2part2)
     - [Chapter 2 - Part 3: JVM](#chapter2part3)
-    - [Chapter 2 - Part 4: JDK](#chapter2part4)
-    - [Chapter 2 - Part 5: Structure of a Java Application](#chapter2part5)
+    - [Chapter 2 - Part 4: Compile-time Errors and Runtime Errors](#chapter2part4)
+    - [Chapter 2 - Part 5: JDK](#chapter2part5)
+    - [Chapter 2 - Part 6: Structure of a Java Application](#chapter2part6)
 7. [Usage](#usage)
 8. [Contributors](#contributors)
 9. [Contributing](#contributing)
@@ -296,7 +297,7 @@ Below, there some of compilation process examples in Java:
 
 <div align="center"><img src="img/chapter2/java-compiler-process3-w612-h242.png" width=612 height=242><br><sub>Fig 5 - Compilation Process in Java - (<a href='https://www.w3schools.in/java-tutorial/compile-java-file-using-javac/'>Work by  w3schools</a>) </sub></div>
 
-**Compile-time errors and Runtime errors** 
+#### <a name="chapter2part4"></a>Chapter 2 - Part 4: Compile-time Errors and Runtime Errors
 
 | Compile-time                                                                                                              | Runtime                                                                                                                              | 
 | :------------------------------------------------------------------------------------------------------------------------ | :-----------------------------------------------------------------------------------------------------------------------------------:|
@@ -304,9 +305,9 @@ Below, there some of compilation process examples in Java:
 | In this case, the compiler prevents the code from execution if it detects an error in the program.]                       | In this case, the compiler does not detect the error, so it cannot prevent the code from the execution.                              |
 | It contains the syntax and semantic errors such as missing semicolon at the end of the statement.                         | It contains the errors such as division by zero, determining the square root of a negative number.                                   |
 
-#### <a name="chapter2part4"></a>Chapter 2 - Part 4: JDK
+#### <a name="chapter2part5"></a>Chapter 2 - Part 5: JDK
 
-#### <a name="chapter2part5"></a>Chapter 2 - Part 5: Structure of a Java Application
+#### <a name="chapter2part6"></a>Chapter 2 - Part 6: Structure of a Java Application
 
 
 
