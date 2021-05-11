@@ -362,8 +362,15 @@ Oracle have a documentation about all his packages: https://docs.oracle.com/java
 
 One of the most famous used packages is java.util.collections and java.util.map
 
+<br>
+
 <div align="center"><img src="img/chapter2/packages-jdk4-w1512-h1252.png" width=500 height=400><br><sub>Fig 10 -Java Packages - (<a href='https://docs.oracle.com/javase/8/docs/technotes/guides/desc_jdk_structure.html'>Work by Oracle</a>) </sub></div>
 
+<br>
+
+<div align="center"><img src="img/chapter2/packages-jdk5-w854-h715.png" width=854 height=715><br><sub>Fig 11 -Java Packages - (<a href='https://docs.oracle.com/javase/8/docs/technotes/guides/desc_jdk_structure.html'>Work by Oracle</a>) </sub></div>
+
+<br>
 
 # Usage <a name="usage"></a>
 
