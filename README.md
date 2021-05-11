@@ -14,14 +14,12 @@
     - [Chapter 1 - Part 6: Programming Language](#chapter1part6)
     - [Chapter 1 - Part 7: IDE](#chapter1part7)
     - [Chapter 1 - Part 8: Compilation and Interpretation, Source Code and Object Code, Virtual machine](#chapter1part8)
-5. [Chapter 2: BBBB](#chapter2)
-    - [Chapter 2 - Part 1: aaaa](#chapter2part1)
-    - [Chapter 2 - Part 2: bbbb](#chapter2part2)
-    - [Chapter 2 - Part 3: cccc](#chapter2part3)
-6. [Chapter 3: CCCC](#chapter3)
-    - [Chapter 3 - Part 1: aaaa](#chapter3part1)
-    - [Chapter 3 - Part 2: bbbb](#chapter3part2)
-    - [Chapter 3 - Part 3: cccc](#chapter3part3)
+5. [Chapter 2: Introduction to Java](#chapter2)
+    - [Chapter 2 - Part 1: Understanding Java Versions](#chapter2part1)
+    - [Chapter 2 - Part 2: Java Editions](#chapter2part2)
+    - [Chapter 2 - Part 3: JDK](#chapter2part3)
+    - [Chapter 2 - Part 4: JVM](#chapter2part4)
+    - [Chapter 2 - Part 5: Structure of a Java Application](#chapter2part5)
 7. [Usage](#usage)
 8. [Contributors](#contributors)
 9. [Contributing](#contributing)
@@ -241,9 +239,17 @@ public class Program {
 	- Compiler Assistance Before Execution
 	- Source Code does not need to be Recompiled to run on different platform
 
-## <a name="chapter2"></a>Chapter 2: BBBB
+## <a name="chapter2"></a>Chapter 2: Introduction to Java
 
-#### <a name="chapter2part1"></a>Chapter 2 - Part 1: aaaa
+#### <a name="chapter2part1"></a>Chapter 2 - Part 1: Understanding Java Versions
+
+#### <a name="chapter2part2"></a>Chapter 2 - Part 2: Java Editions
+
+#### <a name="chapter2part3"></a>Chapter 2 - Part 3: JDK
+
+#### <a name="chapter2part4"></a>Chapter 2 - Part 4: JVM
+
+#### <a name="chapter2part5"></a>Chapter 2 - Part 5: Structure of a Java Application
 
 
 
