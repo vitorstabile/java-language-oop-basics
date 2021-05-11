@@ -226,6 +226,21 @@ public class Program {
 
 <div align="center"><img src="img/chapter1/hybrid-w1079-h395.png" width=1300 height=500><br><sub>Fig 2 - Hybrid Process</sub></div>
 
+- **Compilation**:
+	- Program Speed
+	- Compiler Assistance Before Execution
+	- Disadvantage: Platform dependence of the generated binary code
+
+- **Interpretation**:
+	- Flexibility of Maintaining the Application in Production
+	- Expressiveness of Language
+	- Source Code does not need to be Recompiled to run on different platform
+	- Disadvantage: Execution speed compared to compiled languages.
+
+- **Hybrid**:
+	- Compiler Assistance Before Execution
+	- Source Code does not need to be Recompiled to run on different platform
+
 ## <a name="chapter2"></a>Chapter 2: BBBB
 
 #### <a name="chapter2part1"></a>Chapter 2 - Part 1: aaaa
