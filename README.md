@@ -115,6 +115,60 @@ To make a computer program, we need:
 - A compiler: software for turning source code into code object
 - A code generator or virtual machine: software that allows the program to run
 
+#### <a name="chapter1part6"></a>Chapter 1 - Part 6: Programming Language
+
+Programming languages have a lexical rules (orthography) and syntax rules (grammar) to write programs.
+
+- Lexical
+
+    Is about the correct words orthography.
+    
+    | Example English                                 | Example Programming Language  |
+    |:------------------------------------------------|:------------------------------|
+    | Dog (Correct)                                   | Main (Correct)                |
+    | Dogo (Wrong)                                    | Maim (Wrong)                  |
+    
+- Syntax
+
+   Is about the correct sentence’s grammar.
+   
+    | Example English                                 | Example Programming Language       |
+    |:------------------------------------------------|:-----------------------------------|
+    | He is a Daniel in judgment (Correct)            | x = 2 + y (Correct)                |
+    | Daniel is a He in judgment (Wrong)              | x = + 2 y (Wrong)                  |
+    
+
+Example of program in Java:
+
+```java
+
+package application;
+
+import java.util.Scanner;
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+        double x, y, media;
+        
+		System.out.print("Enter the First Number: ");
+        x = sc.nextDouble();
+        System.out.print("Enter the Second Number: ");
+        y = sc.nextDouble();
+        
+        media = (x + y)/2.0;
+        
+        System.out.println("Media = " + media);
+        sc.close();
+	}
+
+}
+
+```
+
 ## <a name="chapter2"></a>Chapter 2: BBBB
 
 #### <a name="chapter2part1"></a>Chapter 2 - Part 1: aaaa
