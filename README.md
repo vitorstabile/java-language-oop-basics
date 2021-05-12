@@ -512,7 +512,7 @@ In Java, we have the 8 primitive data types. Other types are Non-primitive like 
 
 <br>
 
-<div align="center"><img src="img/chapter3/data-types-w8000-h4500" width=600 height=350><br><sub>Fig 13 -Java Data Types - (<a href='https://getkt.com/blog/reintroduction-to-java-data-types/'>Work by neotam</a>) </sub></div>
+<div align="center"><img src="img/chapter3/data-types-w8000-h4500.png" width=600 height=350><br><sub>Fig 13 -Java Data Types - (<a href='https://getkt.com/blog/reintroduction-to-java-data-types/'>Work by neotam</a>) </sub></div>
 
 <br>
 
