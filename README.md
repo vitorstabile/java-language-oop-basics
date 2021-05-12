@@ -25,7 +25,8 @@
 6. [Chapter 3: Sequential Structure](#chapter3)
     - [Chapter 3 - Part 1: Arithmetic Expressions](#chapter3part1)
     - [Chapter 3 - Part 2: Variables](#chapter3part2)
-    - [Chapter 3 - Part 2: Data Types in Java](#chapter3part3)
+    - [Chapter 3 - Part 3: Data Types in Java](#chapter3part3)
+    - [Chapter 3 - Part 3: The Three Basic Operations of a Computer](#chapter3part4)
 7. [Usage](#usage)
 8. [Contributors](#contributors)
 9. [Contributing](#contributing)
@@ -541,6 +542,17 @@ Wrapper types(Reference Types) provided by java for corresponding Primitive Type
 
 **Class Name -> Pascal Case** Ex: MyClass
 
+#### <a name="chapter3part4"></a>Chapter 3 - Part 4: The Three Basic Operations of a Computer
+
+The Basic operations of a computer is Input of Data, Processing of Data and the output of the result or data.
+
+The processing is made by the CPU
+
+<br>
+
+<div align="center"><img src="img/chapter3/basic-operations-computer-w562-h190.gif" width=562 height=190><br><sub>Fig 15 -Basic Operations of a Computer - (<a href='http://cs.sru.edu/~mullins/cpsc100book/module02_introduction/module02-04_introduction.html'>Work by Paul Mullins</a>) </sub></div>
+
+<br>
 
 # Usage <a name="usage"></a>
 
