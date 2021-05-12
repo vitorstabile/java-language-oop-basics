@@ -227,9 +227,9 @@ public class Program {
         double x, y, media;
         
 		System.out.print("Enter the First Number: ");
-        x = sc.nextDouble();
+        x = sc.nextDouble(); //input: 2
         System.out.print("Enter the Second Number: ");
-        y = sc.nextDouble();
+        y = sc.nextDouble(); //input: 4
         
         media = (x + y)/2.0;
         
@@ -238,6 +238,18 @@ public class Program {
 	}
 
 }
+
+Console
+
+/*
+
+input: 2
+input: 4
+
+output: Media = 3.0
+
+*/
+
 
 ```
 <br>
@@ -413,11 +425,14 @@ public class Program {
 
 	public static void main(String[] args) {
 		
-		System.out.println("Hello World!");
+		System.out.println("Hello World!"); 
 
 	}
 
 }
+
+//output: Hello World!
+
 ```
 
 In the example above, public,class,void,main,Strings[],args,System.out.println are keywords.
