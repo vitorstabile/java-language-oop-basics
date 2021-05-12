@@ -45,6 +45,8 @@ Some References:
 
 https://docs.oracle.com/javase/specs/jls/se8/html/index.html
 
+https://docs.oracle.com/javase/8/docs/api/
+
 https://www.javatpoint.com/corejava-interview-questions
 
 http://javapractices.com/home/HomeAction.do
@@ -367,7 +369,7 @@ The Java JDK come with some of most used packages to help the developer like awt
 
 <br>
 
-Oracle have a documentation about all his packages: https://docs.oracle.com/javase/8/docs/technotes/guides/desc_jdk_structure.html
+Oracle have a documentation about all his packages: https://docs.oracle.com/javase/8/docs/api/
 
 <br>
 
