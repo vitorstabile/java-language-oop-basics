@@ -24,6 +24,7 @@
     - [Chapter 2 - Part 7: First Program in Java](#chapter2part7)
 6. [Chapter 3: Sequential Structure](#chapter3)
     - [Chapter 3 - Part 1: Arithmetic Expressions](#chapter3part1)
+    - [Chapter 3 - Part 2: Variables](#chapter3part2)
 7. [Usage](#usage)
 8. [Contributors](#contributors)
 9. [Contributing](#contributing)
@@ -479,7 +480,29 @@ Below, there is the arithmetic expressions operators in Java
 | --       | Decrement        | Decreases the value of a variable by 1   | --x        |
 
 
+#### <a name="chapter3part2"></a>Chapter 3 - Part 2: Variables
 
+Variables are a way to store information in our computer. Variables that we define in a program can be accesed by a name we give them, and the computer does the hard work of figuring out where they get stored in the computers random access memory (RAM).
+
+In programming, a variable is a portion of memory (RAM) used to store data during the execution of the programs.
+
+Declaration of variables
+
+<type> <name> = <initial value> (optional);
+	
+```java
+
+int idade = 25;
+double altura = 1.68;
+char sexo = 'F';
+
+```
+
+A variable have:
+- Name
+- Type
+- Value
+- Memory Adress
 
 # Usage <a name="usage"></a>
 
