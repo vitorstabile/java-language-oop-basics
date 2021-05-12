@@ -537,6 +537,11 @@ Wrapper types(Reference Types) provided by java for corresponding Primitive Type
 | float            | Float                          |
 | double           | double                         |
 
+**Variables Name -> Camel Case** Ex: myVariable
+
+**Class Name -> Pascal Case** Ex: MyClass
+
+
 # Usage <a name="usage"></a>
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more
