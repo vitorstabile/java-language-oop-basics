@@ -753,6 +753,7 @@ public class Main {
 		x2 = sc.next(); // Separador de espaço padrão
 		y2 = sc.nextInt();
 		z2 = sc.nextDouble();
+		sc.nextLine(); // limpeza de buffer
 
 		System.out.println("Dados Digitados");
 		System.out.println(x2);
@@ -773,7 +774,7 @@ public class Main {
 		String s4, s5, s6;
 
 		x3 = sc.nextInt();
-		sc.nextLine();
+		sc.nextLine(); // limpeza de buffer
 		s4 = sc.nextLine(); 
 		s5 = sc.nextLine(); 
 		s6 = sc.nextLine();
@@ -782,12 +783,8 @@ public class Main {
 		System.out.println(s4); 
 		System.out.println(s5);
 		System.out.println(s6);
-
-
 		
 		sc.close();
-		
-		
 	}
 
 }
@@ -796,14 +793,6 @@ public class Main {
 Console
 
 ----output---
-5
-10
-5
-10.0
-35.0
-2.0
-2.5
-5
 
 */
 
@@ -847,17 +836,18 @@ public class Main {
 }
 
 /*
+
 Console
 
 ----output---
-5
-10
-5
-10.0
-35.0
-2.0
-2.5
-5
+Raiz quadrada de 3.0 = 1.7320508075688772
+Raiz quadrada de 4.0 = 2.0
+Raiz quadrada de 25 = 5.0
+3.0 elevado a 4.0 = 81.0
+3.0 elevado ao quadrado = 9.0
+5 elevado ao quadrado = 25.0
+Valor absoluto de 4.0 = 4.0
+Valor absoluto de -5.0 = 5.0
 
 */
 
