@@ -25,6 +25,7 @@
 6. [Chapter 3: Sequential Structure](#chapter3)
     - [Chapter 3 - Part 1: Arithmetic Expressions](#chapter3part1)
     - [Chapter 3 - Part 2: Variables](#chapter3part2)
+    - [Chapter 3 - Part 2: Data Types in Java](#chapter3part3)
 7. [Usage](#usage)
 8. [Contributors](#contributors)
 9. [Contributing](#contributing)
@@ -499,12 +500,23 @@ double altura = 1.68;
 char sexo = 'F';
 
 ```
-
 A variable have:
 - Name
 - Type
 - Value
 - Memory RAM Adress
+
+#### <a name="chapter3part3"></a>Chapter 3 - Part 3: Data Types in Java
+
+In Java, we have the 8 primitive data types. Other types are Non-primitive like the diagram below:
+
+<br>
+
+<div align="center"><img src="img/chapter3/data-types-w8000-h4500" width=600 height=350><br><sub>Fig 13 -Java Data Types - (<a href='https://getkt.com/blog/reintroduction-to-java-data-types/'>Work by neotam</a>) </sub></div>
+
+<br>
+
+
 
 # Usage <a name="usage"></a>
 
