@@ -21,6 +21,7 @@
     - [Chapter 2 - Part 4: Compile-time Errors and Runtime Errors](#chapter2part4)
     - [Chapter 2 - Part 5: Structure of a Java Application](#chapter2part5)
     - [Chapter 2 - Part 6: Components of Oracle's Java Platform Products](#chapter2part6)
+    - [Chapter 2 - Part 7: First Program in Java](#chapter2part7)
 7. [Usage](#usage)
 8. [Contributors](#contributors)
 9. [Contributing](#contributing)
@@ -392,6 +393,12 @@ One of the most famous used packages is java.util.collections and java.util.map
 <div align="center"><img src="img/chapter2/packages-jdk5-w854-h715.png" width=854 height=715><br><sub>Fig 12 -Java Packages - (<a href='https://www.javatpoint.com/collections-in-java'>Work by JavaPoint</a>) </sub></div>
 
 <br>
+
+#### <a name="chapter2part7"></a>Chapter 2 - Part 7: First Program in Java
+
+To create your first program in Java, create a class in the srs folder.
+
+The name 
 
 # Usage <a name="usage"></a>
 
