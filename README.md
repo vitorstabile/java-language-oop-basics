@@ -398,7 +398,42 @@ One of the most famous used packages is java.util.collections and java.util.map
 
 To create your first program in Java, create a class in the srs folder.
 
-The name 
+Every programm in Java is a class.
+
+Java programs have keywords. Each has a specific meaning and sometimes they need to be used in specific orders.
+
+This keywords are case sensitive - in the code below, public, Public and PUBLIC are different things.
+
+```java
+package application;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Hello World!");
+
+	}
+
+}
+```
+
+In the example above, public,class,void,main,Strings[],args,System.out.println are keywords.
+
+**Defining a acess modifier**: the public is the acess modifier of the class. In this case, the class is public, or open to another class's.
+
+**Defining a class**: The class keyword is used to define a class with the name following the keyword - Program - in this case. In the class, the left and right curly braces is to define the class block. To define a class requires a acess modifer, in this case, public.
+
+**The main method**: Is the entry point for any Java program and is able to start and run the program when we use it.
+
+**The static**: More later
+
+**The void**: Indicate that the method will not return any information.
+
+**The left and right parenthesis ()**: Method declaration mandatory and can optionally include one or more parameters - wich is a way to pass a information to a method
+
+**String[] args**: String[] args means an array of sequence of characters (Strings) that are passed to the "main" function.
+
 
 # Usage <a name="usage"></a>
 
