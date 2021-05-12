@@ -22,6 +22,8 @@
     - [Chapter 2 - Part 5: Structure of a Java Application](#chapter2part5)
     - [Chapter 2 - Part 6: Components of Oracle's Java Platform Products](#chapter2part6)
     - [Chapter 2 - Part 7: First Program in Java](#chapter2part7)
+6. [Chapter 3: Sequential Structure](#chapter3)
+    - [Chapter 3 - Part 1: Arithmetic Expressions](#chapter3part1)
 7. [Usage](#usage)
 8. [Contributors](#contributors)
 9. [Contributing](#contributing)
@@ -435,6 +437,29 @@ In the example above, public,class,void,main,Strings[],args,System.out.println a
 **String[] args**: String[] args means an array of sequence of characters (Strings) that are passed to the "main" function.
 
 **System.out.println("Hello World!")**: Is a method to print in the console that recive a statement.
+
+## <a name="chapter3"></a>Chapter 3: Sequential Structure
+
+#### <a name="chapter3part1"></a>Chapter 3 - Part 1: Arithmetic Expressions
+
+Arithmetic Expressions is when you have a expression and the result of this expression result in a numeric value.
+
+Ex: 4 + 5 = 9
+
+Below, there is the arithmetic expressions operators in Java
+
+| Operator | Name             | Description                              |Example     |
+| :------- | :---------------:|----------------------------------------: |----------: |
+| +        | Addition         | Adds together two values                 | x + y      |
+| -        | Subtraction      | Subtracts one value from another         | x - y      |
+| *        | Multiplication   | Multiplies two values                    | x * y      |
+| /        | Division         | Divides one value by another             | x / y      |
+| %        | Modulus          | Returns the division remainder           | x % y      |
+| ++       | Modulus          |	Increases the value of a variable by 1   | ++x        |
+| --       | Decrement        | Decreases the value of a variable by 1   | --x        |
+
+
+
 
 # Usage <a name="usage"></a>
 
