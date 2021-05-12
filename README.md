@@ -449,7 +449,7 @@ Ex: 4 + 5 = 9
 Below, there is the arithmetic expressions operators in Java
 
 | Operator | Name             | Description                              |Example     |
-| :------- | :---------------:|:---------------------------------------: |:---------: |
+| :-------:| :---------------:|:---------------------------------------: |:---------: |
 | +        | Addition         | Adds together two values                 | x + y      |
 | -        | Subtraction      | Subtracts one value from another         | x - y      |
 | *        | Multiplication   | Multiplies two values                    | x * y      |
