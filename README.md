@@ -520,7 +520,22 @@ In Java, we have the 8 primitive data types. Other types are Non-primitive like 
 
 <br>
 
+The size of a data (bits) is the number of the values this variable can store: The byte type can store 8 bits. Each bit store 1 or 0.
 
+So: 2x2x2x2x2x2x2x2x2 = 2^8 = 256 possible values (-128 to 127)
+
+Wrapper types(Reference Types) provided by java for corresponding Primitive Types
+
+| Primitive Types  | Wrapper types(Reference Types) |
+| :--------------: | :-----------------------------:|
+| boolean          | Boolean                        | 
+| byte             | Byte                           |
+| character        | Character                      |
+| short            | Short                          |
+| int              | Int                            | 
+| long             | Long                           |
+| float            | Float                          |
+| double           | double                         |
 
 # Usage <a name="usage"></a>
 
