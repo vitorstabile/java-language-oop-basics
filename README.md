@@ -41,6 +41,27 @@ This project have a propose to introduce the reader to basic concepts in Java.
 
 [![Project][project-shield]][project-url] <!-- Put the link of the github page of the tutorial her -->
 
+Some References:
+
+https://docs.oracle.com/javase/specs/jls/se8/html/index.html
+
+https://www.javatpoint.com/corejava-interview-questions
+
+http://javapractices.com/home/HomeAction.do
+
+https://javaranch.com/
+
+https://dzone.com/java-jdk-development-tutorials-tools-news
+
+http://java-decompiler.github.io/
+
+https://ideone.com/
+
+https://mkyong.com/
+
+https://www.codementor.io/
+
+
 # Project Description <a name="projectdescription"></a>
 
 A Basic Tutorial of Java
