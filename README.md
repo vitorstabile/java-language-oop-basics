@@ -434,6 +434,7 @@ In the example above, public,class,void,main,Strings[],args,System.out.println a
 
 **String[] args**: String[] args means an array of sequence of characters (Strings) that are passed to the "main" function.
 
+**System.out.println("Hello World!")**: Is a method to print in the console that recive a statement.
 
 # Usage <a name="usage"></a>
 
