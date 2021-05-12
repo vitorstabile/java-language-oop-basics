@@ -561,13 +561,307 @@ The processing is made by the CPU
 
 #### <a name="chapter3part5"></a>Chapter 3 - Part 5: Data Output
 
+```java
+
+package application;
+
+import java.util.Scanner;
+import java.util.Locale;
+
+public class Program {
+
+	public static void main(String[] args) {
+	
+		System.out.print("Olá Mundo!");
+		System.out.println("Bom Dia!");
+		
+		int y = 32;
+		
+		System.out.println(y);
+		
+		double x = 10.35784;
+		
+		System.out.println(x);
+		
+		System.out.printf("%.2f%n", x);
+		
+		System.out.printf("%.4f%n", x);
+		
+		Locale.setDefault(Locale.US);
+		
+		System.out.printf("%.2f%n", x);
+		
+		System.out.printf("%.4f%n", x);
+		
+		System.out.println("RESULTADO = " + x + " METROS");
+		
+		System.out.printf("RESULTADO = %.2f metros%n", x);
+		
+		String nome = "Maria";
+		
+		int idade = 31;
+		
+		double renda = 4000.0;
+		
+		System.out.printf("%s tem %d anos e ganha R$ %.2f reais%n", nome, idade, renda);
+	}
+
+}
+
+/*
+Console
+
+----output---
+Olá Mundo!Bom Dia!
+32
+10.35784
+10,36
+10,3578
+10.36
+10.3578
+RESULTADO = 10.35784 METROS
+RESULTADO = 10.36 metros
+Maria tem 31 anos e ganha R$ 4000.00 reais
+
+*/
+
+```
+
 #### <a name="chapter3part6"></a>Chapter 3 - Part 6: Data Processing
+
+```java
+
+package application;
+
+import java.util.Scanner;
+import java.util.Locale;
+
+public class Program {
+
+	public static void main(String[] args) {
+	
+		int x, y;
+		
+		x = 5;
+		y = 2 * x;
+		
+		System.out.println(x);
+		System.out.println(y);
+		
+		int x2;
+		
+		double y2;
+		
+		x2 = 5;
+		y2 = 2 * x2;
+		
+		System.out.println(x2);
+		System.out.println(y2);
+		
+		double b, B, h, area;
+		
+		b = 6.0;
+		B = 8.0;
+		h = 5.0;
+		
+		area = (b + B) / 2.0 * h;
+		System.out.println(area);
+		
+		int x3, y3;
+		double resultado;
+		
+		x3 = 5;
+		y3 = 2;
+		resultado = x3 / y3;
+		
+		System.out.println(resultado);
+		
+		resultado = (double) x3 / y3;
+		
+		System.out.println(resultado);
+		
+		double x4;
+		int y4;
+		
+		x4 = 5.0;
+		y4 = (int) x4;
+		
+		System.out.println(y4);
+	}
+
+}
+
+/*
+Console
+
+----output---
+5
+10
+5
+10.0
+35.0
+2.0
+2.5
+5
+
+*/
+
+```
 
 #### <a name="chapter3part7"></a>Chapter 3 - Part 7: Casting
 
 #### <a name="chapter3part8"></a>Chapter 3 - Part 7: Data Input
 
+```java
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+
+		String x;
+		x = sc.next();
+		
+		System.out.println("Você digitou: "+ x);
+		
+		int y;
+		y = sc.nextInt();
+		
+		System.out.println("Você digitou: "+ y);
+		
+		double z;
+		
+		z = sc.nextDouble();
+		
+		System.out.printf("Você digitou: %.2f%n", z);
+		
+		char a;
+		
+		a = sc.next().charAt(0);
+		
+		System.out.println("Você digitou: " + a);
+		
+		String x2;
+		int y2;
+		double z2;
+
+		x2 = sc.next(); // Separador de espaço padrão
+		y2 = sc.nextInt();
+		z2 = sc.nextDouble();
+
+		System.out.println("Dados Digitados");
+		System.out.println(x2);
+		System.out.println(y2);
+		System.out.println(z2);
+		
+		String s1, s2, s3;
+
+		s1 = sc.nextLine(); 
+		s2 = sc.nextLine(); 
+		s3 = sc.nextLine();
+		System.out.println("DADOS DIGITADOS:");
+		System.out.println(s1);
+		System.out.println(s2);
+		System.out.println(s3);
+		
+		int x3;
+		String s4, s5, s6;
+
+		x3 = sc.nextInt();
+		sc.nextLine();
+		s4 = sc.nextLine(); 
+		s5 = sc.nextLine(); 
+		s6 = sc.nextLine();
+		System.out.println("DADOS DIGITADOS:"); 
+		System.out.println(x3); 
+		System.out.println(s4); 
+		System.out.println(s5);
+		System.out.println(s6);
+
+
+		
+		sc.close();
+		
+		
+	}
+
+}
+
+/*
+Console
+
+----output---
+5
+10
+5
+10.0
+35.0
+2.0
+2.5
+5
+
+*/
+
+```
+
 #### <a name="chapter3part9"></a>Chapter 3 - Part 8: Mathematic Functions
+
+```java
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		double x = 3.0;
+		double y = 4.0; 
+		double z = -5.0; 
+		double A, B, C;
+		
+		A = Math.sqrt(x); 
+		B = Math.sqrt(y);
+		C = Math.sqrt(25.0);
+		System.out.println("Raiz quadrada de " + x + " = " + A); 
+		System.out.println("Raiz quadrada de " + y + " = " + B); 
+		System.out.println("Raiz quadrada de 25 = " + C);
+
+		A = Math.pow(x, y);
+		B = Math.pow(x, 2.0);
+		C = Math.pow(5.0, 2.0);
+		System.out.println(x + " elevado a " + y + " = " + A); 
+		System.out.println(x + " elevado ao quadrado = " + B); 
+		System.out.println("5 elevado ao quadrado = " + C);
+
+		A = Math.abs(y); 
+		B = Math.abs(z);
+		System.out.println("Valor absoluto de " + y + " = " + A);
+		System.out.println("Valor absoluto de " + z + " = " + B);
+		
+		
+	}
+
+}
+
+/*
+Console
+
+----output---
+5
+10
+5
+10.0
+35.0
+2.0
+2.5
+5
+
+*/
+
+```
 
 # Usage <a name="usage"></a>
 
