@@ -488,7 +488,9 @@ In programming, a variable is a portion of memory (RAM) used to store data durin
 
 Declaration of variables
 
-<type> <name> = <initial value> (optional);
+(type) (name) = (initial value);
+
+The initial value to declare a variable can be optional.
 	
 ```java
 
@@ -502,7 +504,7 @@ A variable have:
 - Name
 - Type
 - Value
-- Memory Adress
+- Memory RAM Adress
 
 # Usage <a name="usage"></a>
 
