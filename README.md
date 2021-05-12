@@ -37,19 +37,13 @@ Project Status: Concluded :heavy_check_mark:
 
 # About the Project <a name="abouttheproject"></a>
 
-This project have a propose to introduce the reader to basic concepts in (put the theme her)
+This project have a propose to introduce the reader to basic concepts in Java.
 
 [![Project][project-shield]][project-url] <!-- Put the link of the github page of the tutorial her -->
 
 # Project Description <a name="projectdescription"></a>
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan id neque ut tempor. Nulla facilisi. Aliquam eu eros fermentum, commodo est sed, pharetra est. Curabitur
-lacinia blandit turpis rhoncus varius. Proin vulputate orci nulla, nec porttitor nibh consequat in. Suspendisse ac neque ut massa commodo auctor in sed libero. Sed tincidunt
-mauris eu tempor malesuada. Mauris feugiat vitae risus quis iaculis
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan id neque ut tempor. Nulla facilisi. Aliquam eu eros fermentum, commodo est sed, pharetra est. Curabitur
-lacinia blandit turpis rhoncus varius. Proin vulputate orci nulla, nec porttitor nibh consequat in. Suspendisse ac neque ut massa commodo auctor in sed libero. Sed tincidunt
-mauris eu tempor malesuada. Mauris feugiat vitae risus quis iaculis
+A Basic Tutorial of Java
   
 ## <a name="chapter1"></a>Chapter 1: Programming Concepts
 
