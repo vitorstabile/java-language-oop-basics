@@ -26,7 +26,12 @@
     - [Chapter 3 - Part 1: Arithmetic Expressions](#chapter3part1)
     - [Chapter 3 - Part 2: Variables](#chapter3part2)
     - [Chapter 3 - Part 3: Data Types in Java](#chapter3part3)
-    - [Chapter 3 - Part 3: The Three Basic Operations of a Computer](#chapter3part4)
+    - [Chapter 3 - Part 4: The Three Basic Operations of a Computer](#chapter3part4)
+    - [Chapter 3 - Part 5: Data Output](#chapter3part5)
+    - [Chapter 3 - Part 6: Data Processing](#chapter3part6)
+    - [Chapter 3 - Part 7: Casting](#chapter3part7)
+    - [Chapter 3 - Part 8: Data Input](#chapter3part8)
+    - [Chapter 3 - Part 9: Mathematic Functions](#chapter3part9)
 7. [Usage](#usage)
 8. [Contributors](#contributors)
 9. [Contributing](#contributing)
@@ -553,6 +558,16 @@ The processing is made by the CPU
 <div align="center"><img src="img/chapter3/basic-operations-computer-w562-h190.gif" width=562 height=190><br><sub>Fig 15 -Basic Operations of a Computer - (<a href='http://cs.sru.edu/~mullins/cpsc100book/module02_introduction/module02-04_introduction.html'>Work by Paul Mullins</a>) </sub></div>
 
 <br>
+
+#### <a name="chapter3part5"></a>Chapter 3 - Part 5: Data Output
+
+#### <a name="chapter3part6"></a>Chapter 3 - Part 6: Data Processing
+
+#### <a name="chapter3part7"></a>Chapter 3 - Part 7: Casting
+
+#### <a name="chapter3part8"></a>Chapter 3 - Part 7: Data Input
+
+#### <a name="chapter3part9"></a>Chapter 3 - Part 8: Mathematic Functions
 
 # Usage <a name="usage"></a>
 
