@@ -239,15 +239,15 @@ public class Program {
 
 }
 
+/*
 Console
 
-/*
+----input---
+Enter the First Number: 2
+Enter the First Number: 4
 
-input: 2
-input: 4
-
-output: Media = 3.0
-
+----output---
+Media = 3.0
 */
 
 
@@ -431,7 +431,12 @@ public class Program {
 
 }
 
-//output: Hello World!
+/*
+Console
+
+----output---
+Hello World!
+*/
 
 ```
 
