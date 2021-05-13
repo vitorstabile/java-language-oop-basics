@@ -567,8 +567,26 @@ The basic comand to output data in java is:
 System.out.print(); // without linebreake
 
 System.out.println(); // witho linebreake
+```
+
+To output a float number:
+
+```java
+
+double x  = 10.35784;
+
+System.out.println(x);
+
+System.out.printf("%.2f%n", x); // With two decimals and linebreak
+
+System.out.printf("%.4f%n", x); // With four decimals and linebreak
 
 ```
+
+
+To consider the decimal separator as a point, BEFORE the Scanner declaration, do:
+
+
 
 Line break
 
