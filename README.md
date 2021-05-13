@@ -753,6 +753,18 @@ Console
 
 #### <a name="chapter3part8"></a>Chapter 3 - Part 7: Data Input
 
+
+To do data entry, we are going to create an object of type "Scanner" as follows:
+
+```java
+import java.util.Scanner;
+
+Scanner sc = new Scanner(System.in);
+
+sc.close();
+```
+
+
 ```java
 import java.util.Locale;
 import java.util.Scanner;
