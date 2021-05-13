@@ -767,6 +767,8 @@ To read a word (text without spaces)
 ```java
 import java.util.Scanner;
 
+Scanner sc = new Scanner(System.in);
+
 String x;
 x = sc.next(); // Input: Maria
 System.out.println("Você digitou: "+ x); // Output: Você digitou: Maria
@@ -774,10 +776,26 @@ System.out.println("Você digitou: "+ x); // Output: Você digitou: Maria
 sc.close();
 ```
 
-To read a integer number (text without spaces)
+To read a word (text with spaces)
 
 ```java
 import java.util.Scanner;
+
+Scanner sc = new Scanner(System.in);
+
+String x;
+x = sc.next(); // Input: Maria Joao
+System.out.println("Você digitou: "+ x); // Output: Você digitou: Maria Joao
+
+sc.close();
+```
+
+To read a integer number
+
+```java
+import java.util.Scanner;
+
+Scanner sc = new Scanner(System.in);
 
 int x;
 x = sc.nextInt(); // Input: 10
@@ -791,7 +809,9 @@ To read a double number (text without spaces)
 ```java
 import java.util.Scanner;
 
-Locale.setDefault(Locale.US); -> Caution of the system Locale -> Use Locale.setDefault(Locale.US);
+Locale.setDefault(Locale.US); // -> Caution of the system Locale -> Use Locale.setDefault(Locale.US);
+
+Scanner sc = new Scanner(System.in);
 
 double x;
 x = sc.nextDouble(); // 4.5
@@ -805,6 +825,8 @@ To read a char
 ```java
 import java.util.Scanner;
 
+Scanner sc = new Scanner(System.in);
+
 char x;
 x = sc.next().charAt(0); // A -> if you put TRE he will pick just the first char
 System.out.println("Você digitou: "+ x); // Output: Você digitou: A
@@ -817,19 +839,24 @@ To read multiple data on the same line
 ```java
 import java.util.Scanner;
 
-string x;
+Locale.setDefault(Locale.US); // -> Caution of the system Locale -> Use Locale.setDefault(Locale.US);
+
+Scanner sc = new Scanner(System.in);
+
+String x;
 int y;
 double z;
 x = sc.next(); // Maria 30 4.5
 y = sc.nextInt();
 z = sc.nextDouble();
-System.out.println("Você digitou: "+ x); 
+System.out.println("Você digitou: "+ x);
+System.out.println("Você digitou: "+ y); 
+System.out.println("Você digitou: "+ z); 
 
 // Output: 
-// Você digitou: 
-// Maria 
-// 30 
-// 4.5
+// Você digitou: Maria 
+// Você digitou: 30
+// Você digitou: 4.5 
 
 sc.close();
 ```
