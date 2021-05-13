@@ -591,12 +591,6 @@ System.out.println(x);
 
 To concatenate multiple elements into one same write command
 
-```java
-System.out.println("RESULTADO = " + x + " METROS");
-```
-
-To concatenate multiple elements into one same write command
-
 %f = float number
 
 %d = int
