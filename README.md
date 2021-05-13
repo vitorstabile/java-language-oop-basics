@@ -1029,6 +1029,17 @@ Console
 
 #### <a name="chapter3part9"></a>Chapter 3 - Part 8: Mathematic Functions
 
+Librarie: java.lang.Math
+
+| Example              | Meaning |
+| :------------------: | :----------------------------------------------:|
+| A = Math.sqrt(x);    | Variable A receives the square root of x        | 
+| A = Math.pow(x, y);  | Variable A receives the result of x raised to y |
+| A = Math.abs(x);     | Variable A receives the absolute value of x      
+
+
+
+
 ```java
 
 public class Main {
