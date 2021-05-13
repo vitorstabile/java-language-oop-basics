@@ -610,6 +610,8 @@ To concatenate multiple elements into one same write command
 %n = linebreak
 
 ```java
+double x  = 10.35784;
+
 System.out.println("RESULTADO = " + x + " METROS");
 
 System.out.printf("RESULTADO = %.2f metros%n", x);
