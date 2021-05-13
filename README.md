@@ -714,8 +714,7 @@ Console
 
 It is the explicit conversion from one type to another.
 
-It is necessary when the compiler is not able to “guess” that the
-result of an expression must be of another type.
+It is necessary when the compiler is not able to “guess” that the result of an expression must be of another type.
 
 ```java
 int x3, y3;
@@ -753,7 +752,6 @@ Console
 
 #### <a name="chapter3part8"></a>Chapter 3 - Part 7: Data Input
 
-
 To do data entry, we are going to create an object of type "Scanner" as follows:
 
 ```java
@@ -764,6 +762,16 @@ Scanner sc = new Scanner(System.in);
 sc.close();
 ```
 
+To read a word (text without spaces)
+
+```java
+import java.util.Scanner;
+
+x = sc.next(); // Input: Maria
+System.out.println("Você digitou: "+ x); // Output: Você digitou: Maria
+
+sc.close();
+```
 
 ```java
 import java.util.Locale;
