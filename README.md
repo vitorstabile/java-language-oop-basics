@@ -572,24 +572,50 @@ System.out.println(); // witho linebreake
 To output a float number:
 
 ```java
-
 double x  = 10.35784;
 
 System.out.println(x);
 
-System.out.printf("%.2f%n", x); // With two decimals and linebreak
+System.out.printf("%.2f%n", x); // With two decimals and linebreak -> OBS: use of system locale
 
-System.out.printf("%.4f%n", x); // With four decimals and linebreak
-
+System.out.printf("%.4f%n", x); // With four decimals and linebreak -> OBS: use of system locale
 ```
-
 
 To consider the decimal separator as a point, BEFORE the Scanner declaration, do:
 
+```java
+Locale.setDefault(Locale.US);
 
+System.out.println(x);
+```
 
-Line break
+To concatenate multiple elements into one same write command
 
+```java
+System.out.println("RESULTADO = " + x + " METROS");
+```
+
+To concatenate multiple elements into one same write command
+
+%f = float number
+
+%d = int
+
+%s = text
+
+%n = linebreak
+
+```java
+System.out.println("RESULTADO = " + x + " METROS");
+
+System.out.printf("RESULTADO = %.2f metros%n", x);
+
+String nome = "Maria";
+int idade = 31;
+double renda = 4000.0;
+System.out.printf("%s tem %d anos e ganha R$ %.2f reais%n", nome, idade, renda);
+
+```
 
 ```java
 
