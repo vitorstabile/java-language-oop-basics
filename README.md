@@ -230,17 +230,17 @@ public class Program {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
-        double x, y, media;
+        	double x, y, media;
         
 		System.out.print("Enter the First Number: ");
-        x = sc.nextDouble(); //input: 2
-        System.out.print("Enter the Second Number: ");
-        y = sc.nextDouble(); //input: 4
+        	x = sc.nextDouble(); //input: 2
+        	System.out.print("Enter the Second Number: ");
+        	y = sc.nextDouble(); //input: 4
         
-        media = (x + y)/2.0;
+        	media = (x + y)/2.0;
         
-        System.out.println("Media = " + media);
-        sc.close();
+       		System.out.println("Media = " + media);
+        	sc.close();
 	}
 }
 
