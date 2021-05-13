@@ -561,6 +561,18 @@ The processing is made by the CPU
 
 #### <a name="chapter3part5"></a>Chapter 3 - Part 5: Data Output
 
+The basic comand to output data in java is:
+
+```java
+System.out.print(); // without linebreake
+
+System.out.println(); // witho linebreake
+
+```
+
+Line break
+
+
 ```java
 
 package application;
