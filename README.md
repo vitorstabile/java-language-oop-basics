@@ -801,7 +801,7 @@ import java.util.Scanner;
 Scanner sc = new Scanner(System.in);
 
 String x;
-x = sc.next(); // Input: Maria Joao
+x = sc.nextLine(); // Input: Maria Joao
 System.out.println("Você digitou: "+ x); // Output: Você digitou: Maria Joao
 
 sc.close();
