@@ -724,11 +724,11 @@ double resultado;
 		
 x3 = 5;
 y3 = 2;
-resultado = x3 / y3;
+resultado = x3 / y3; // result a int -> 2.0 and not 2.5
 		
 System.out.println(resultado);
 		
-resultado = (double) x3 / y3;
+resultado = (double) x3 / y3; // casting
 		
 System.out.println(resultado);
 		
@@ -736,9 +736,19 @@ double x4;
 int y4;
 		
 x4 = 5.0;
-y4 = (int) x4;
+y4 = (int) x4; -> You can convert double to int - make a casting
 		
 System.out.println(y4);
+
+/*
+Console
+
+----output---
+2.0
+2.5
+5
+
+*/
 ```
 
 #### <a name="chapter3part8"></a>Chapter 3 - Part 7: Data Input
