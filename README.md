@@ -908,6 +908,41 @@ Boa Noite
 */
 ```
 
+ATTENTION: pending line break
+
+```java
+Scanner sc = new Scanner(System.in);
+
+int x;
+String s1, s2, s3;
+x = sc.nextInt();
+sc.nextLine(); // Buffer Clean
+s1 = sc.nextLine();
+s2 = sc.nextLine();
+s3 = sc.nextLine();
+System.out.println("DADOS DIGITADOS:");
+System.out.println(x);
+System.out.println(s1);
+System.out.println(s2);
+System.out.println(s3);
+
+/*
+Console
+Input
+30
+Bom Dia
+Boa Tarde
+Boa Noite
+
+----output---
+DADOS DIGITADOS:
+30
+Bom Dia
+Boa tarde
+Boa Noite
+*/
+```
+
 ```java
 import java.util.Locale;
 import java.util.Scanner;
