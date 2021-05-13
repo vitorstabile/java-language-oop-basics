@@ -168,32 +168,42 @@ Programming languages have a lexical rules (orthography) and syntax rules (gramm
 Example of program in Java:
 
 ```java
-
 package application;
 
 import java.util.Scanner;
+import java.util.Locale;
 
 public class Program {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
+		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
-        double x, y, media;
+		
+        	double x, y, media;
         
 		System.out.print("Enter the First Number: ");
-        x = sc.nextDouble();
-        System.out.print("Enter the Second Number: ");
-        y = sc.nextDouble();
+        	x = sc.nextDouble(); //input: 2
+        	System.out.print("Enter the Second Number: ");
+        	y = sc.nextDouble(); //input: 4
         
-        media = (x + y)/2.0;
+        	media = (x + y)/2.0;
         
-        System.out.println("Media = " + media);
-        sc.close();
+       		System.out.println("Media = " + media);
+        	sc.close();
 	}
-
 }
 
+/*
+Console
+
+----input---
+Enter the First Number: 2.0
+Enter the First Number: 4.0
+
+----output---
+Media = 3.0
+*/
 ```
 
 #### <a name="chapter1part7"></a>Chapter 1 - Part 7: IDE
@@ -224,12 +234,15 @@ Ex:
 package application;
 
 import java.util.Scanner;
+import java.util.Locale;
 
 public class Program {
 
 	public static void main(String[] args) {
 		
+		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
+		
         	double x, y, media;
         
 		System.out.print("Enter the First Number: ");
@@ -248,8 +261,8 @@ public class Program {
 Console
 
 ----input---
-Enter the First Number: 2
-Enter the First Number: 4
+Enter the First Number: 2.0
+Enter the First Number: 4.0
 
 ----output---
 Media = 3.0
