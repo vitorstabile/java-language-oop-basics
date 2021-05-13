@@ -221,7 +221,6 @@ Functions of an IDE
 Ex:
 
 ```java
-
 package application;
 
 import java.util.Scanner;
@@ -229,7 +228,6 @@ import java.util.Scanner;
 public class Program {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		Scanner sc = new Scanner(System.in);
         double x, y, media;
@@ -244,7 +242,6 @@ public class Program {
         System.out.println("Media = " + media);
         sc.close();
 	}
-
 }
 
 /*
@@ -257,8 +254,6 @@ Enter the First Number: 4
 ----output---
 Media = 3.0
 */
-
-
 ```
 <br>
 
@@ -436,7 +431,6 @@ public class Program {
 		System.out.println("Hello World!"); 
 
 	}
-
 }
 
 /*
@@ -445,7 +439,6 @@ Console
 ----output---
 Hello World!
 */
-
 ```
 
 In the example above, public,class,void,main,Strings[],args,System.out.println are keywords.
@@ -584,6 +577,8 @@ System.out.printf("%.4f%n", x); // With four decimals and linebreak -> OBS: use 
 To consider the decimal separator as a point, BEFORE the Scanner declaration, do:
 
 ```java
+import java.util.Locale;
+
 Locale.setDefault(Locale.US);
 
 System.out.println(x);
@@ -600,63 +595,49 @@ To concatenate multiple elements into one same write command
 %n = linebreak
 
 ```java
-System.out.println("RESULTADO = " + x + " METROS");
+		System.out.println("RESULTADO = " + x + " METROS");
 
-System.out.printf("RESULTADO = %.2f metros%n", x);
+		System.out.printf("RESULTADO = %.2f metros%n", x);
 
-String nome = "Maria";
-int idade = 31;
-double renda = 4000.0;
-System.out.printf("%s tem %d anos e ganha R$ %.2f reais%n", nome, idade, renda);
-
+		String nome = "Maria";
+		int idade = 31;
+		double renda = 4000.0;
+		System.out.printf("%s tem %d anos e ganha R$ %.2f reais%n", nome, idade, renda);
 ```
 
 ```java
-
-package application;
-
-import java.util.Scanner;
-import java.util.Locale;
-
-public class Program {
-
-	public static void main(String[] args) {
-	
-		System.out.print("Olá Mundo!");
-		System.out.println("Bom Dia!");
+System.out.print("Olá Mundo!");
+System.out.println("Bom Dia!");
 		
-		int y = 32;
+int y = 32;
 		
-		System.out.println(y);
+System.out.println(y);
 		
-		double x = 10.35784;
+double x = 10.35784;
 		
-		System.out.println(x);
+System.out.println(x);
 		
-		System.out.printf("%.2f%n", x);
+System.out.printf("%.2f%n", x);
 		
-		System.out.printf("%.4f%n", x);
+System.out.printf("%.4f%n", x);
 		
-		Locale.setDefault(Locale.US);
+Locale.setDefault(Locale.US);
 		
-		System.out.printf("%.2f%n", x);
+System.out.printf("%.2f%n", x);
 		
-		System.out.printf("%.4f%n", x);
+System.out.printf("%.4f%n", x);
 		
-		System.out.println("RESULTADO = " + x + " METROS");
+System.out.println("RESULTADO = " + x + " METROS");
 		
-		System.out.printf("RESULTADO = %.2f metros%n", x);
+System.out.printf("RESULTADO = %.2f metros%n", x);
 		
-		String nome = "Maria";
+String nome = "Maria";
 		
-		int idade = 31;
+int idade = 31;
 		
-		double renda = 4000.0;
+double renda = 4000.0;
 		
-		System.out.printf("%s tem %d anos e ganha R$ %.2f reais%n", nome, idade, renda);
-	}
-
-}
+System.out.printf("%s tem %d anos e ganha R$ %.2f reais%n", nome, idade, renda);
 
 /*
 Console
@@ -674,7 +655,6 @@ RESULTADO = 10.36 metros
 Maria tem 31 anos e ganha R$ 4000.00 reais
 
 */
-
 ```
 
 #### <a name="chapter3part6"></a>Chapter 3 - Part 6: Data Processing
@@ -690,66 +670,32 @@ For double use .0
 For float use f
 
 ```java
-
-package application;
-
-import java.util.Scanner;
-import java.util.Locale;
-
-public class Program {
-
-	public static void main(String[] args) {
-	
-		int x, y;
+int x, y;
 		
-		x = 5;
-		y = 2 * x;
+x = 5;
+y = 2 * x;
 		
-		System.out.println(x);
-		System.out.println(y);
+System.out.println(x);
+System.out.println(y);
 		
-		int x2;
+int x2;
 		
-		double y2;
+double y2;
 		
-		x2 = 5;
-		y2 = 2 * x2;
+x2 = 5;
+y2 = 2 * x2;
 		
-		System.out.println(x2);
-		System.out.println(y2);
+System.out.println(x2);
+System.out.println(y2);
 		
-		double b, B, h, area;
+double b, B, h, area;
 		
-		b = 6.0;
-		B = 8.0;
-		h = 5.0;
+b = 6.0;
+B = 8.0;
+h = 5.0;
 		
-		area = (b + B) / 2.0 * h;
-		System.out.println(area);
-		
-		int x3, y3;
-		double resultado;
-		
-		x3 = 5;
-		y3 = 2;
-		resultado = x3 / y3;
-		
-		System.out.println(resultado);
-		
-		resultado = (double) x3 / y3;
-		
-		System.out.println(resultado);
-		
-		double x4;
-		int y4;
-		
-		x4 = 5.0;
-		y4 = (int) x4;
-		
-		System.out.println(y4);
-	}
-
-}
+area = (b + B) / 2.0 * h;
+System.out.println(area);
 
 /*
 Console
@@ -760,20 +706,44 @@ Console
 5
 10.0
 35.0
-2.0
-2.5
-5
 
 */
-
 ```
 
 #### <a name="chapter3part7"></a>Chapter 3 - Part 7: Casting
 
+It is the explicit conversion from one type to another.
+
+It is necessary when the compiler is not able to “guess” that the
+result of an expression must be of another type.
+
+```java
+int x3, y3;
+		
+double resultado;
+		
+x3 = 5;
+y3 = 2;
+resultado = x3 / y3;
+		
+System.out.println(resultado);
+		
+resultado = (double) x3 / y3;
+		
+System.out.println(resultado);
+		
+double x4;
+int y4;
+		
+x4 = 5.0;
+y4 = (int) x4;
+		
+System.out.println(y4);
+```
+
 #### <a name="chapter3part8"></a>Chapter 3 - Part 7: Data Input
 
 ```java
-
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -855,7 +825,6 @@ Console
 ----output---
 
 */
-
 ```
 
 #### <a name="chapter3part9"></a>Chapter 3 - Part 8: Mathematic Functions
