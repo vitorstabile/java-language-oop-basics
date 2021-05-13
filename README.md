@@ -752,7 +752,7 @@ double x4;
 int y4;
 		
 x4 = 5.0;
-y4 = (int) x4; -> You can convert double to int - make a casting
+y4 = (int) x4; // -> You can convert double to int - make a casting
 		
 System.out.println(y4);
 
