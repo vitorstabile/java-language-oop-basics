@@ -870,15 +870,13 @@ System.out.println("Você digitou: "+ x);
 System.out.println("Você digitou: "+ y); 
 System.out.println("Você digitou: "+ z); 
 
+sc.close();
+
 // Output: 
 // Você digitou: Maria 
 // Você digitou: 30
 // Você digitou: 4.5 
-
-sc.close();
 ```
-
-
 
 ```java
 import java.util.Locale;
