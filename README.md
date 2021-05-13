@@ -679,6 +679,16 @@ Maria tem 31 anos e ganha R$ 4000.00 reais
 
 #### <a name="chapter3part6"></a>Chapter 3 - Part 6: Data Processing
 
+Assignment command
+
+(variable) = (expression);
+
+Good Practice - Always indicate the type of the number, if the expression is floating point (not entire).
+
+For double use .0
+
+For float use f
+
 ```java
 
 package application;
