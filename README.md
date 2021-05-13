@@ -570,7 +570,7 @@ The processing is made by the CPU
 The basic comand to output data in java is:
 
 ```java
-System.out.print(); // without linebreake
+System.out.print(""); // without linebreake
 
 System.out.println(); // witho linebreake
 ```
@@ -593,6 +593,8 @@ To consider the decimal separator as a point, BEFORE the Scanner declaration, do
 import java.util.Locale;
 
 Locale.setDefault(Locale.US);
+		
+double x  = 10.35784;
 
 System.out.println(x);
 ```
