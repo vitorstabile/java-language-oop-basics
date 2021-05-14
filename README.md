@@ -826,6 +826,16 @@ y4 = (int) x4; // -> You can convert double to int - make a casting
 		
 System.out.println(y4);
 
+int myIntValue = 100;
+byte myByteValue = 100;
+short myShortValue = 100;
+		
+int myIntTotal = (myIntValue)/2;
+byte myByteTotal = (byte) ((myByteValue)/2);
+short myShortTotal = (short) ((myShortValue)/2);
+
+
+
 /*
 Console
 
