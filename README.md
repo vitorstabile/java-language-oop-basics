@@ -532,6 +532,19 @@ In Java, we have the 8 primitive data types. Other types are Non-primitive like 
 
 <br>
 
+To see the range of max and min of a type of variable do:
+
+```java
+int myMinIntValue = Integer.MIN_VALUE;
+int myMaxIntValue = Integer.MAX_VALUE;
+
+System.out.println("Integer Minimun Value = " + myMinIntValue);
+
+System.out.println("Integer Maximun Value = " + myMaxIntValue);
+```
+
+
+
 The size of a data (bits) is the number of the values this variable can store: The byte type can store 8 bits. Each bit store 1 or 0.
 
 So: 2x2x2x2x2x2x2x2x2 = 2^8 = 256 possible values (-128 to 127)
