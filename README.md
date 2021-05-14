@@ -587,11 +587,13 @@ System.out.printf("%.2f%n", x); // With two decimals and linebreak -> OBS: use o
 System.out.printf("%.4f%n", x); // With four decimals and linebreak -> OBS: use of system locale
 ```
 
-To consider the decimal separator as a point, BEFORE the Scanner declaration, do:
+To consider the decimal separator as a point, BEFORE the Scanner declaration, import java.util.Locale; and use Locale.setDefault(Locale.US);:
 
 ```java
-import java.util.Locale;
+// import java.util.Locale;
+```
 
+```java
 Locale.setDefault(Locale.US);
 		
 double x  = 10.35784;
