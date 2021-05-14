@@ -532,22 +532,77 @@ In Java, we have the 8 primitive data types. Other types are Non-primitive like 
 
 <br>
 
+The size of a data (bits) is the number of the values this variable can store: The byte type can store 8 bits. Each bit store 1 or 0.
+
+So: 2x2x2x2x2x2x2x2x2 = 2^8 = 256 possible values (-128 to 127)
+
+
 To see the range of max and min of a type of variable do:
 
 ```java
 int myMinIntValue = Integer.MIN_VALUE;
 int myMaxIntValue = Integer.MAX_VALUE;
+System.out.println("Integer Minimum Value = " + myMinIntValue);
+System.out.println("Integer Maximum Value = " + myMaxIntValue);
 
-System.out.println("Integer Minimun Value = " + myMinIntValue);
+int myMaxIntTest = 2_147_483_647; // another form to express
 
-System.out.println("Integer Maximun Value = " + myMaxIntValue);
+byte myMinByteValue = Byte.MIN_VALUE;
+byte myMaxByteValue = Byte.MAX_VALUE;
+System.out.println("Byte Minimum Value = " + myMinByteValue);
+System.out.println("Byte Maximum Value = " + myMaxByteValue);
+
+short myMinShortValue = Short.MIN_VALUE;
+short myMaxShortValue = Short.MAX_VALUE;
+System.out.println("Short Minimum Value = " + myMinShortValue);
+System.out.println("Short Maximum Value = " + myMaxShortValue);
+        
+long myLongValue = 100; // Wrong -> Use L
+long myMinLongValue = Long.MIN_VALUE;
+long myMaxLongValue = Long.MAX_VALUE;
+System.out.println("Long Minimum Value = " + myMinLongValue);
+System.out.println("Long Maximum Value = " + myMaxLongValue);
+long bigLongLiteralValue = 2_147_483_647_234L;
+System.out.println(bigLongLiteralValue);
+
+short bigShortLiteralValue = 32767;
+
+/*
+
+Output
+
+Integer Minimum Value = -2147483648
+Integer Maximum Value = 2147483647
+Byte Minimum Value = -128
+Byte Maximum Value = 127
+Short Minimum Value = -32768
+Short Maximum Value = 32767
+Long Minimum Value = -9223372036854775808
+Long Maximum Value = 9223372036854775807
+2147483647234
+*/
 ```
 
+If you try to add a value in a Maximun or Minimun Value, will occur a overflow in a Maximun and underflow in Minimun. The Computer will convert the maximun to minimun and vice-versa
 
+```java
+int myMinIntValue = Integer.MIN_VALUE;
+int myMaxIntValue = Integer.MAX_VALUE;
+System.out.println("Integer Minimum Value = " + myMinIntValue);
+System.out.println("Integer Maximum Value = " + myMaxIntValue);
+System.out.println("Busted MAX value = " + (myMaxIntValue + 1)); // overflow
+System.out.println("Busted MIN value = " + (myMinIntValue - 1)); // underflow
 
-The size of a data (bits) is the number of the values this variable can store: The byte type can store 8 bits. Each bit store 1 or 0.
+/*
+Output
 
-So: 2x2x2x2x2x2x2x2x2 = 2^8 = 256 possible values (-128 to 127)
+Integer Minimum Value = -2147483648
+Integer Maximum Value = 2147483647
+Busted MAX value = -2147483648
+Busted MIN value = 2147483647
+*/
+```
+
 
 Wrapper types(Reference Types) provided by java for corresponding Primitive Types
 
