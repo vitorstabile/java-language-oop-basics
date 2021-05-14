@@ -752,9 +752,11 @@ Assignment command
 
 Good Practice - Always indicate the type of the number, if the expression is floating point (not entire).
 
-For double use .0
+For double use .0 or d
 
 For float use f
+
+Numbers (1, 2, 3...etc) are integers in Java.
 
 ```java
 int x, y;
