@@ -775,7 +775,9 @@ To do data entry, we are going to create an object of type "Scanner" as follows:
 
 ```java
 import java.util.Scanner;
+```
 
+```java
 Scanner sc = new Scanner(System.in);
 
 sc.close();
@@ -784,8 +786,6 @@ sc.close();
 To read a word (text without spaces)
 
 ```java
-import java.util.Scanner;
-
 Scanner sc = new Scanner(System.in);
 
 String x;
@@ -798,8 +798,6 @@ sc.close();
 To read a word (text with spaces)
 
 ```java
-import java.util.Scanner;
-
 Scanner sc = new Scanner(System.in);
 
 String x;
@@ -812,8 +810,6 @@ sc.close();
 To read a integer number
 
 ```java
-import java.util.Scanner;
-
 Scanner sc = new Scanner(System.in);
 
 int x;
@@ -826,8 +822,6 @@ sc.close();
 To read a double number (text without spaces)
 
 ```java
-import java.util.Scanner;
-
 Locale.setDefault(Locale.US); // -> Caution of the system Locale -> Use Locale.setDefault(Locale.US);
 
 Scanner sc = new Scanner(System.in);
@@ -842,8 +836,6 @@ sc.close();
 To read a char
 
 ```java
-import java.util.Scanner;
-
 Scanner sc = new Scanner(System.in);
 
 char x;
@@ -856,8 +848,6 @@ sc.close();
 To read multiple data on the same line
 
 ```java
-import java.util.Scanner;
-
 Locale.setDefault(Locale.US); // -> Caution of the system Locale -> Use Locale.setDefault(Locale.US);
 
 Scanner sc = new Scanner(System.in);
