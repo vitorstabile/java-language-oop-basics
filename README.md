@@ -54,6 +54,8 @@ This project have a propose to introduce the reader to basic concepts in Java.
 
 Some References:
 
+https://docs.oracle.com/javase/tutorial/reallybigindex.html
+
 https://docs.oracle.com/javase/specs/jls/se8/html/index.html
 
 https://docs.oracle.com/javase/8/docs/api/
